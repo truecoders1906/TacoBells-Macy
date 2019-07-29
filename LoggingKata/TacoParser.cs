@@ -10,6 +10,9 @@
         public ITrackable Parse(string line)
         {
             logger.LogInfo("Begin parsing");
+            var cells = line.Split(',');
+
+            
 
             // Do not fail if one record parsing fails, return null
             return null; // TODO Implement
